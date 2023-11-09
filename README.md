@@ -2,12 +2,23 @@
 ![logo-white](./alx.svg)
 > alx
 ---
+
+## Live demo:computer:
+![alx](./alx2023.png)
+
+---
+
+---
 ## Description:bulb:
 In this project, I have redesigned the Alx landing page with a fresh, streamlined, and imaginative approach 
+
 ---
+
 # Responsive-Landing-Page
 This responsive Alx landing page is meticulously crafted to seamlessly adjust to diverse screen sizes and devices. It ensures a user-friendly and visually captivating experience for all visitors, regardless of the device they are accessing it from.
+
 ---
+
 # Technologies Used
 * HTML: The landing page structure is built using HTML5, which provides semantic markup and accessibility features.
 
