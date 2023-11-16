@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Alx_Landing_Page -->
+    <meta charset="UTF-8">
+    <meta name="description" content="alx landing page">
+    <meta name="keywords" content="alx,karimelaissaouy">
+    <meta name="author" content="karimelaissaouy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-9V+5n4/SSGJXVYDdBjy9gij5uBqN+QZETa8vY+cGMhjU6kwWTWfEEIw4l6P95aCp" crossorigin="anonymous">
+    <title>Alx_Landing_Page </title>
+</head>
+<body>  
+    <header>
+        <!-- Developed by karim -->
+        <img src="alxsvg.svg" alt="alx" id="alx" onclick="showPopup()">
+        <div id="popup"><p>Developed by karim</p></div>
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li>Programmes</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+
+       
+
+
+    </header>    
+<!-- Developed by karim -->
+    <section class="main">
+
+            <section class="left">
+                <p class="title">Unlock Your Coding Potential !</p>
+                <p class="msg">Become a Programmer with the All-New ALX Coding Program , Discover your coding prowess with ALX's groundbreaking program, unlocking a world of programming possibilities and propelling your career to new heights</p>
+                <div class="dropdown">
+                    <button class="cta">Explore Programmes <i class="fas fa-arrow-down"></i>                    </button>
+                    <ul class="dropdown-content">
+                      <li><a href="#home"><i class="fa fa-check-circle"></i> Software Developer</a></li>
+                      <li><a href="#home"><i class="fa fa-check-circle"></i> Data Analyst</a></li>
+                    </ul>
+                  </div>
+                  
+            </section>
+<!-- Developed by karim -->
+            <section class="right">
+                <img id="image1" src="img/coding.gif" alt="Landing Image">
+                <img id="image2" class="hidden" src="alxsvg.svg" alt="alx">
+            </section>
+
+    </section>
+    <br><br><br>
+    
+<!-- Developed by karim -->
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('opened')
+        })
+        // Developed by karim
+        function showPopup() {
+      document.getElementById('popup').style.display = 'block';
+      setTimeout(function() {
+        document.getElementById('popup').style.display = 'none';
+      }, 4500);
+    }
+    
+    </script>
+<!-- Developed by karim -->
+</body>
+</html>
+        <!-- Developed by karim -->
